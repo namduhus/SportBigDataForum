@@ -28,9 +28,12 @@ dev_dependencies:
 
 
 flutter:
-
-
   uses-material-design: true
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.otf
+        - asset: assets/fonts/Pretendard-Bold.otf
   assets:
     - assets/logo.png
 

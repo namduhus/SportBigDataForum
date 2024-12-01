@@ -38,6 +38,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   Text(
                     '회원가입',
                     style: TextStyle(
+                      fontFamily: 'Pretendard',
                       fontSize: 50,
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF4682B4),
@@ -73,7 +74,10 @@ class _RegisterPageState extends State<RegisterPage> {
                       Flexible(
                         child: Text(
                           '회원가입을 위해 개인정보 수집에 동의합니다.',
-                          style: TextStyle(fontSize: 16),
+                          style: TextStyle(
+                            fontFamily: 'Pretendard',
+                            fontSize: 16,
+                          ),
                         ),
                       ),
                     ],
@@ -111,7 +115,9 @@ class _RegisterPageState extends State<RegisterPage> {
                       child: Text(
                         '회원가입',
                         style: TextStyle(
+                          fontFamily: 'Pretendard',
                           fontSize: 18,
+                          fontWeight: FontWeight.bold,
                           color: Colors.white, // 텍스트는 항상 흰색
                         ),
                       ),
@@ -152,6 +158,10 @@ class _RegisterPageState extends State<RegisterPage> {
         decoration: InputDecoration(
           hintText: hintText,
           border: InputBorder.none,
+          hintStyle: TextStyle(
+            fontFamily: 'Pretendard',
+            fontSize: 16,
+          ),
         ),
       ),
     );

@@ -60,7 +60,12 @@ class StartPage extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                   child: Text(
                     '로그인',
-                    style: TextStyle(fontSize: 18, color: Colors.white), // 흰색 텍스트
+                    style: TextStyle(
+                      fontFamily: 'Pretendard', // Pretendard 폰트 적용
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white, // 흰색 텍스트
+                    ),
                   ),
                 ),
               ),
@@ -95,7 +100,12 @@ class StartPage extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 34.5, vertical: 15),
                   child: Text(
                     '회원가입',
-                    style: TextStyle(fontSize: 18, color: Color(0xFF4682B4)), // 파란색 텍스트
+                    style: TextStyle(
+                      fontFamily: 'Pretendard', // Pretendard 폰트 적용
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF4682B4), // 파란색 텍스트
+                    ),
                   ),
                 ),
               ),
